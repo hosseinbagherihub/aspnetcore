@@ -1,0 +1,51 @@
+---------------------------------
+**** A1)  toastr : 
+---------------------------------
+A1.1)
+         in client dir : npm install ngx-toastr
+A1.2)
+         Add style to Angular.json -- section styles :
+         "./node_modules/ngx-toastr/toastr.css"
+---------------------------------
+**** A2) angular guard auth template :
+
+A2.1) 
+        in client/src/app/_guards : ng g guard auth --skip-tests
+A2.2)  
+        select can activate (root)        
+
+---------------------------------
+
+
+---------------------------------
+**** A3) add new theme from bootswatch.com
+---------------------------------
+A3.1)   
+        Go To bootswatch.com
+A3.2)
+        in client dir : npm install bootswatch
+A3.3)
+        in angular.json add style of selected theme after datepicker:
+        "./node_modules/bootswatch/dist/united/bootstrap.css"        
+---------------------------------
+**** A4) Shared Module
+---------------------------------
+A4.1)
+        Create Folder in app : _modules
+A4.2)
+        go to _modules dir : ng g m shared --flat
+A4.3) 
+        cut those module from app.modul.ts
+A4.4)  
+        passed to shared , export those
+A4.5)
+        add sharedmodule to app.module.ts                            
+
+---------------------------------
+**** : 
+---------------------------------
+
+
+---------------------------------
+**** : 
+---------------------------------

@@ -20,12 +20,12 @@
       "es2018",
       "dom"
     ],
-    "strictPropertyInitialization": false  // added by hothreeyn
+    "strictNullChecks":false // Added By Hothreeyn (not prevent to set null )
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,   
   }
 }
